@@ -9,7 +9,6 @@ These instructions apply to coding agents working in this repository. Follow the
 - Inspect the relevant source, project structure, Cargo configuration, tests, and documentation.
 - Verify the installed Rust toolchain when possible; do not assume version numbers or API availability.
 - Read `CLAUDE.md` for project-specific rules when present.
-- For Rust/game-engine work, consult `.claude/skills/rust-game-engine-engineering/SKILL.md` when available.
 - Do not guess the contents of files you have not inspected.
 
 ## Engineering rules
