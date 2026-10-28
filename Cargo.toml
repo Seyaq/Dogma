@@ -1,0 +1,23 @@
+[package]
+name = "dogma"
+version = "0.1.0"
+edition = "2024"
+description = "Dogma — micro-noyau x86_64 (no_std, zéro dépendance)"
+
+[[bin]]
+name = "dogma"
+path = "src/dogma.rs"
+test = false
+bench = false
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+debug = 1
